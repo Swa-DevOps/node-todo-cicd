@@ -2,6 +2,7 @@ version: '3'
 
 services:
   web:
+    name : axeno-web
     image: "axeno-web:latest"
     ports:
       - "8081:8080"
