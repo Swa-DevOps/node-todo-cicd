@@ -2,6 +2,6 @@ version: '3.9'
 
 services:
   web:
-    image: "node-app-test-new:latest"
+    image: "axeno-web:latest"
     ports:
       - "8081:8080"
